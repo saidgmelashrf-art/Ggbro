@@ -1,13 +1,14 @@
 {
   "name": "irestart",
   "version": "1.0.0",
-  "description": "Auto restart and keep-alive bot for Aternos",
+  "description": "Single Anti-AFK and Auto Restart Bot for Aternos",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "aternos-api": "github:quentin55da/aternos-api",
+    "aternos-api": "git+https://github.com/quentin55da/aternos-api.git",
+    "express": "^4.19.2",
     "mineflayer": "^4.20.1"
   },
   "engines": {
